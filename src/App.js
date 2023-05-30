@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+// importing all required libraries
+import { ReactNotifications } from "react-notifications-component";
+// importing all required components
+import TodoContainer from "./ToDo.js";
 
+// creating an App component
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* using ReactNotifications for rendering up all the notifications */}
+      <ReactNotifications />
+      {/* rendering the todo container component */}
+      <TodoContainer />
     </div>
   );
 }
 
+// exporting app component by default
 export default App;

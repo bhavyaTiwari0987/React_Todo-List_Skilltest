@@ -1,0 +1,83 @@
+body{
+    background-color: #c2255c;
+  }
+  .Container {
+    text-align: center;
+  }
+  
+  .ToDo-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    width: 600px;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  #Add-ToDo-Conatiner{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin: 15px;
+  border-bottom: 2px solid grey;
+  }
+  #Add-ToDo-Conatiner form {
+    width: 100%;
+    padding: 9px;
+  }
+  #Add-ToDo-Conatiner form input {
+    padding: 8px;
+    width: 60%;
+    margin-right:3px; 
+    border-radius: 10px;
+    border-color: rgb(197, 195, 195);
+    color: rgb(165, 165, 165);
+  }
+  #Add-ToDo-Conatiner form button {
+    padding: 5px;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    border: 0;
+    cursor: pointer;
+  
+  }
+  #ToDo-List{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ToDo-Item{
+    border: 1px solid grey;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  .ToDo-Item span {
+    margin-right:3px; 
+    text-align: left;
+    width: 70%;
+  }
+  .ToDo-Item button{
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: red;
+    border: 0;
+    color: white;
+    cursor: pointer;
+  }
+  
+  
